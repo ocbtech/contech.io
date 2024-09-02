@@ -1,0 +1,106 @@
+/*colors https://coolors.co/palettes/trending */
+
+html, body {
+  font-family: Monotype Corsiva, sans-serif;
+  background-color: #028090;
+  color: #fdfffc;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #05668d;
+  color: #fdfffc;
+  padding: 20px;
+}
+
+nav {
+  background-color: #10002b;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fdfffc; 
+  padding: 8px 15px;
+  background-color: #05668d; 
+  border-radius: 5px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+   background-color: #05668d;
+  color: #fdfffc;
+  padding: 10px;
+}
+
+.navBox {
+  background-color: #3c096c;
+  color: #ffdab9;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #ffdab9;
+}
+
+a:hover {
+  color: #f8ad9d;
+}
+
+
+h2 {
+  color: #fdfffc;
+  text-align: center;
+  
+}
+p {
+  color: #ffdab9;
+  text-align: center;
+  line-height: 3em;
+}
+/*Handle overflow */
+main {
+  overflow: auto;
+  }
+  
+ /* Implement responsive design to different screen widths using @media and flex/flexbox */
+@media only screen and (max-width: 480px) {
+  .page-title {
+    width: 270px;
+  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+.page-title, .page-description {
+  float: left;
+    width: 20em;
+}
+/* =============================================
+   Mobile Styles
+   =============================================
+*/
+ section#custphone {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      top: 40px;
+   }
