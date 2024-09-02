@@ -1,0 +1,83 @@
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Black', sans-serif;
+}
+
+/* Use both block and floating elements, Create a floated layout*/
+img {
+  display: block;
+  float: right
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
+
+ol {
+  text-align: center;
+  display: inline-block;
+}
+
+h1, h2 {
+  font-size: 20px;
+}
+ /* Create a grid layout */
+nav {
+   display:in-line grid;
+   float:left;
+   position: absolute;
+}
+
+/* Experiment with relative and absolute positioning */
+.footer {
+  padding: 60px 0px;
+  font-size:12px;
+  margin-bottom: 5;
+  margin-left: 20px;
+  position: relative;
+}
+
+/*Handle overflow */
+main {
+  overflow: auto;
+  }
+  
+ /* Implement responsive design to different screen widths using @media and flex/flexbox*/
+@media only screen and (max-width: 480px) {
+  .page-title {
+    width: 270px;
+  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+.page-title, .page-description {
+  float: left;
+    width: 20em;
+}
+
+
+/* Form Layout Styles */
+
+
+
+/* Legend Styles */
+
+
+
+/* Text Area Styles */
+
+
+
+/* Spinner Styles */
+
+
+
+/* Form Button Styles */
+
+
+
+/* Validation Styles */
+ input#phone:focus:valid {background: rgb(220, 255, 220) url(rb_valid.png) bottom right/ contain no-repeat;
+}
+
+ input#phone:focus:valid {background: rgb(255, 232, 233) url(rb_invalid.png) bottom right/ contain no-repeat;
+}
