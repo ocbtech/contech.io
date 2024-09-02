@@ -1,0 +1,72 @@
+/* Format lists, background and text */
+
+
+
+ol {
+list-style-type: disc;
+}
+
+header {
+  color: white;
+  background-color: brown;
+ 
+}
+body {
+ 
+  background-color: brown;
+
+
+h1, h2 {
+  color: white;
+  background-color: brown;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  background-color: brown;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+li {
+  background-color: brown;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  width: 300px;  
+}
+
+
+footer {
+  color: white;
+  background-color: brown;
+  text-align: center;
+ 
+}
+
+/* Use pseudo classes/elements and use pseudo classes for hypertext links */
+li a: visted {
+	color:red;
+}
+
+/* Use contextual/attribute selectors */
+.content {
+font-size: 8px;
+}
+
+
+/* =============================================
+   Mobile Styles
+   =============================================
+*/
+ section#custphone {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      top: 40px;
+   }
